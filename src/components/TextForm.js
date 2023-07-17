@@ -53,8 +53,8 @@ export default function TextForm(props) {
     </div>
     <div className={`mx-4 text-${props.mode ==='light'? 'dark':'light'}`}>
       <h4>Text Summary</h4>
-      <p>{text.split(" ").filter((element)=>{return element.length!==0 }).length} words and {text.length} characters.</p>
-      <p><u> {0.008 * text.split(" ").filter((element)=>{return element.length!==0 }).length}</u> Minutes to read the above lines. </p>
+      <p>{text.split(/\s+/).filter((element)=>{return element.length!==0 }).length} words and {text.length} characters.</p>
+      <p><u> {0.008 * text.split(/\s+/).filter((element)=>{return element.length!==0 }).length}</u> Minutes to read the above lines. </p>
 
       <h4>Preview</h4>
       <p className='text-secondary'><i>{text.length>0? text: "Nothing to preview."}</i></p>
