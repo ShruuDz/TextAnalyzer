@@ -52,7 +52,7 @@ function App() {
 
   return (
    <>
-    <Navbar title="TextUtils" aboutText="About Us" mode={mode} toggleMode={toggleMode}/>
+    <Navbar title="TextAnalyzer" aboutText="About Us" mode={mode} toggleMode={toggleMode}/>
     <Alert alert={alert} />
     <div className="container my-5">
       {/* <Routes> */}
