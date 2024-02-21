@@ -1,6 +1,8 @@
 # Text Analyzer
 
 Text Analyzer is a versatile web application designed to enhance your text analysis tasks. Built with React.js, this tool offers a user-friendly interface to perform various text manipulations and analyses with ease. Whether you're editing text or analyzing content, Text Analyzer provides you with the functionality to do it all in one place.
+**Note:**
+    Created this website for my learning purpose.
 
 ## Features
 
